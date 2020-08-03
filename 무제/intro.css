@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: transparent;
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1::before {
+  content: "Web site is made Sung Kyu..";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: yellow;
+  overflow: hidden;
+  border-right: 3px solid white;
+  animation: typing 8s steps(27) infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+/* 
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #212121;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+  color: pink;
+  font-size: 45px;
+  border-right: 3px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 8s steps(27) infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+*/
