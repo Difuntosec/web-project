@@ -38,6 +38,31 @@ h1::before {
   }
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.mainbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 130px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 30px;
+  transition: transform 10ms ease;
+}
+
+button:hover {
+  transform: scale(1.5);
+}
+
 /* 
 
 * {
